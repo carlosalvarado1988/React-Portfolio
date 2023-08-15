@@ -1,24 +1,17 @@
-import React from "react";
-import { Header } from "./components/Header";
-import { About } from "./components/About";
-import { Resume } from "./components/Resume";
-import { Portfolio } from "./components/Portfolio";
-import { Testimonials } from "./components/Testimonials";
-import { ContactUs } from "./components/ContactUs";
-import { Footer } from "./components/Footer";
-import { resumeData } from "./resumeData";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-const App = () => {
+import { Home } from './components/Home';
+
+export interface AppProps {}
+
+const App: React.FunctionComponent<AppProps> = () => {
   return (
-    <div className="App">
-      <Header resumeData={resumeData} />
-      <About resumeData={resumeData} />
-      <Resume resumeData={resumeData} />
-      <Portfolio resumeData={resumeData} />
-      <Testimonials resumeData={resumeData} />
-      <ContactUs resumeData={resumeData} />
-      <Footer resumeData={resumeData} />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 
