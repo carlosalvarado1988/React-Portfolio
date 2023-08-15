@@ -1,7 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
-export const Header = ({ resumeData }) => {
+type HeadingProps = any;
+
+export const Header = ({ resumeData }: HeadingProps) => {
   return (
     <React.Fragment>
       <header id="home">
@@ -55,7 +57,7 @@ export const Header = ({ resumeData }) => {
             <hr />
             <ul className="social">
               {resumeData.socialLinks &&
-                resumeData.socialLinks.map((item) => {
+                resumeData.socialLinks.map((item: any) => {
                   return (
                     <li key={item.name}>
                       <a
