@@ -12,15 +12,15 @@ import { resumeData } from './resumeData';
 export interface HomeProps {}
 
 export const Home: React.FunctionComponent<HomeProps> = () => {
-  return (
-    <div className="App">
-      <Header resumeData={resumeData} />
-      <About resumeData={resumeData} />
-      <Resume resumeData={resumeData} />
-      <Portfolio resumeData={resumeData} />
-      <Testimonials resumeData={resumeData} />
-      <ContactUs resumeData={resumeData} />
-      <Footer resumeData={resumeData} />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header resumeData={resumeData} />
+            <Testimonials resumeData={resumeData} />
+            <About resumeData={resumeData} />
+            <Portfolio resumeData={resumeData} />
+            <Resume resumeData={resumeData} />
+            <ContactUs resumeData={resumeData} />
+            <Footer resumeData={resumeData} />
+        </div>
+    );
 };
