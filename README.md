@@ -12,4 +12,21 @@ A simple SPA Portfolio to showcase demos, learnings and other information to cli
 
 ReactJS Typescript and its config Prettier and its config React Router
 
-this is just a silly update
+## Using github pages
+
+Github pages was added using this as a guide: https://github.com/gitname/react-gh-pages
+
+Its important to configure the repository for deployments as these instructions:
+
+1. Configure GitHub Pages
+
+- Navigate to the GitHub Pages settings page
+- In your web browser, navigate to the GitHub repository
+- Above the code browser, click on the tab labeled "Settings"
+
+2. In the sidebar, in the "Code and automation" section, click on "Pages"
+
+- Configure the "Build and deployment" settings like this:
+- Source: Deploy from a branch --- Branch: --- Branch: gh-pages --- Folder: / (root)
+
+3. Click on the "Save" button
