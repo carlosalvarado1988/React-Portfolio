@@ -27,6 +27,10 @@ Its important to configure the repository for deployments as these instructions:
 2. In the sidebar, in the "Code and automation" section, click on "Pages"
 
 - Configure the "Build and deployment" settings like this:
-- Source: Deploy from a branch --- Branch: --- Branch: gh-pages --- Folder: / (root)
+- Source: Deploy from a branch: Branch:
+- Branch: gh-pages
+- Folder: / (root)
 
 3. Click on the "Save" button
+
+Page will be served in: "http://carlosalvarado1988/github.io/react-portfolio"
