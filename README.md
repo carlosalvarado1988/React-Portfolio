@@ -12,25 +12,6 @@ A simple SPA Portfolio to showcase demos, learnings and other information to cli
 
 ReactJS Typescript and its config Prettier and its config React Router
 
-## Using github pages
+## Using Vercel to host a live page.
 
-Github pages was added using this as a guide: https://github.com/gitname/react-gh-pages
-
-Its important to configure the repository for deployments as these instructions:
-
-1. Configure GitHub Pages
-
-- Navigate to the GitHub Pages settings page
-- In your web browser, navigate to the GitHub repository
-- Above the code browser, click on the tab labeled "Settings"
-
-2. In the sidebar, in the "Code and automation" section, click on "Pages"
-
-- Configure the "Build and deployment" settings like this:
-- Source: Deploy from a branch: Branch:
-- Branch: gh-pages
-- Folder: / (root)
-
-3. Click on the "Save" button
-
-Page will be served in: "http://carlosalvarado1988/github.io/react-portfolio"
+You can visit the page at: https://react-portfolio-pi-rose.vercel.app/ and its connected to main branch
