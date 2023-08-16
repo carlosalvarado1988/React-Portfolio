@@ -10,7 +10,6 @@ A simple SPA Portfolio to showcase demos, learnings and other information to cli
 
 ## TechStack and scalability
 
-ReactJS
-Typescript and its config
-Prettier and its config
-React Router
+ReactJS Typescript and its config Prettier and its config React Router
+
+this is just a silly update
