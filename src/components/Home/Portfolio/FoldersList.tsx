@@ -1,13 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import {
-  Grid,
-  Avatar,
-  List,
-  ListItem,
-  ListItemAvatar,
-  ListItemText,
-  Typography,
-} from '@mui/material';
+import { Grid, Avatar, List, ListItem, ListItemAvatar, ListItemText, Typography } from '@mui/material';
 import FolderIcon from '@mui/icons-material/Folder';
 
 export const FoldersList: React.FunctionComponent = () => {
@@ -22,9 +14,7 @@ export const FoldersList: React.FunctionComponent = () => {
                 <FolderIcon />
               </Avatar>
             </ListItemAvatar>
-            <ListItemText
-              primary={<Typography variant="h5">Exploring Three.js</Typography>}
-            />
+            <ListItemText primary={<Typography variant="h5">Exploring Three.js</Typography>} />
           </ListItem>
         </List>
       </Grid>

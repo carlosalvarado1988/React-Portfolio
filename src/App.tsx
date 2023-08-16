@@ -6,12 +6,10 @@ import { Demos } from './components/Demos';
 import { ThreeFiber } from './components/ThreeFiber';
 import { AppContainer } from './App.styles';
 
-const basename = document.querySelector('base')?.getAttribute('href') ?? '/';
-
 const App: React.FunctionComponent = () => {
   return (
     <AppContainer>
-      <BrowserRouter basename={basename}>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="demos">

@@ -1,5 +1,4 @@
 {
-  "homepage": "https://carlosalvarado1988.github.io/react-portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -37,11 +36,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "PUBLIC_URL=/ react-scripts start",
-    "local-build": "PUBLIC_URL=/ react-scripts build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -20,7 +20,7 @@ export const ThreeFiber: React.FunctionComponent = () => {
   return (
     <>
       <NavigationBox>
-        <Button variant="contained" onClick={() => navigate('/#portfolio')}>
+        <Button variant="contained" onClick={() => navigate('/')}>
           Home
         </Button>
       </NavigationBox>
