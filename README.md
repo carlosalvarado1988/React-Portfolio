@@ -18,4 +18,4 @@ You can visit the page at: https://react-portfolio-pi-rose.vercel.app/ and its c
 
 ## Using Circleci for CI/CD.
 
-The build process makes sure to run tests and run eslint before merging
+The build process makes sure to run tests and run eslint before merging (https://app.circleci.com/pipelines/github/carlosalvarado1988/react-portfolio)
