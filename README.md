@@ -15,3 +15,7 @@ ReactJS Typescript and its config Prettier and its config React Router
 ## Using Vercel to host a live page.
 
 You can visit the page at: https://react-portfolio-pi-rose.vercel.app/ and its connected to main branch
+
+## Using Circleci for CI/CD.
+
+The build process makes sure to run tests and run eslint before merging
