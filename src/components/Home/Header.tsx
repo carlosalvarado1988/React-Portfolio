@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React from 'react';
 
 type HeadingProps = any;
 
 export const Header = ({ resumeData }: HeadingProps) => {
   return (
-    <React.Fragment>
+    <>
       <header id="home">
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -26,18 +26,8 @@ export const Header = ({ resumeData }: HeadingProps) => {
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
-              </a>
-            </li>
-            <li>
               <a className="smoothscroll" href="#portfolio">
                 Works
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#testimonials">
-                Testimonials
               </a>
             </li>
             <li>
@@ -51,7 +41,7 @@ export const Header = ({ resumeData }: HeadingProps) => {
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-            <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
+            <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>
               I am a {resumeData.role}.{resumeData.roleDescription}
             </h3>
             <hr />
@@ -80,6 +70,6 @@ export const Header = ({ resumeData }: HeadingProps) => {
           </a>
         </p>
       </header>
-    </React.Fragment>
+    </>
   );
 };
