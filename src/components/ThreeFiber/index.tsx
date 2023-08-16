@@ -1,17 +1,10 @@
 import * as React from 'react';
-import styled from 'styled-components';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 
+import { StyledCanvas } from './index.styles';
 import { Environment } from './Environment';
 import { House } from './House';
-
-const StyledCanvas = styled(Canvas)`
-  height: 800px;
-  width: 100%;
-  height: 100%;
-  position: relative;
-`;
 
 export const ThreeFiber: React.FunctionComponent = () => {
   return (

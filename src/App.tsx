@@ -1,15 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import styled from 'styled-components';
 import { Home } from './components/Home';
 import { Demos } from './components/Demos';
 import { ThreeFiber } from './components/ThreeFiber';
+import { AppContainer } from './App.styles';
 
 export interface AppProps {}
-
-const AppContainer = styled.div`
-    height: 100vh;
-`;
 
 const App: React.FunctionComponent<AppProps> = () => {
     return (
