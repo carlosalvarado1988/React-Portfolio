@@ -13,24 +13,18 @@ export const Testimonials = ({ resumeData }) => {
           <div className="ten columns flex-container">
             <div className="flexslider">
               <ul className="slides">
-                {resumeData.testimonials &&
-                  resumeData.testimonials.map((item) => {
-                    return (
-                      <li>
-                        <blockquote>
-                          <p>{item.description}</p>
-                          <cite>{item.name}</cite>
-                        </blockquote>
-                      </li>
-                    );
-                  })}
+                <li>
+                  <blockquote>
+                    <p>Improving lives with Software</p>
+                  </blockquote>
+                </li>
               </ul>
-            </div>{' '}
+            </div>
             {/* div.flexslider ends */}
-          </div>{' '}
+          </div>
           {/* div.flex-container ends */}
-        </div>{' '}
-        {/* row ends */}
+        </div>
+        {/* row ends */}ç
       </div>{' '}
       {/* text-container ends */}
     </section>
